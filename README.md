@@ -62,30 +62,3 @@ test_messages = [
 Точность модели на тестовых данных: 98.99%
 Модель успешно различает обычные сообщения и спам
 Pipeline позволяет легко масштабировать и дообучать модель
-🚀 Как запустить проект
-
-1. Клонировать репозиторий
-
-bash
-git clone <repository-url>
-cd email-spam-detection
-2. Установить зависимости
-
-bash
-pip install pandas scikit-learn numpy
-3. Запустить ноутбук
-
-bash
-jupyter notebook email-spam-detection.ipynb
-Или выполнить как скрипт:
-
-bash
-python -m nbconvert --to script email-spam-detection.ipynb
-python email-spam-detection.py
-📁 Структура проекта
-
-text
-email-spam-detection/
-├── email-spam-detection.ipynb  # Основной ноутбук с кодом
-├── README.md                   # Этот файл
-└── requirements.txt            # Зависимости (если добавлены)
